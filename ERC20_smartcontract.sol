@@ -105,8 +105,8 @@ contract ERC20Coin is StandardToken { // CHANGE THIS. Update the contract name.
     // This is a constructor function 
     // which means the following function name has to match the contract name declared above
     function ERC20Coin() {
-        balances[msg.sender] = 1000000000;               // Give the creator all initial tokens. This is set to 1000 for example. If you want your initial tokens to be X and your decimal is 5, set this value to X * 100000. (CHANGE THIS)
-        totalSupply = 1000000000;                        // Update total supply (1000 for example) (CHANGE THIS)
+        balances[msg.sender] = 100000000000;               // Give the creator all initial tokens. This is set to 1000 for example. If you want your initial tokens to be X and your decimal is 5, set this value to X * 100000. (CHANGE THIS)
+        totalSupply = 100000000000;                        // Update total supply (1000 for example) (CHANGE THIS)
         name = "ERC20Coin";                                   // Set the name for display purposes (CHANGE THIS)
         decimals = 5;                                               // Amount of decimals for display purposes (CHANGE THIS)
         symbol = "SYMBOL";                                          // Set the symbol for display purposes (CHANGE THIS)
